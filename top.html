@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Website</title>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-n5Q8f7Zomvqw2Zy7qKIc5x/JVYgFUmthWSb2r2dY2Z7BipzGv0bpv+/x5ty5l/V/4awhWIT0/xfy8RNH3JWdcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:rgb(153, 237, 153);
+            overflow:hidden;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 40px;
+            font-weight: bold;
+            margin-right: 20px;
+            color: #007bff; /* Blue color for the logo */
+        }
+        .logo img {
+            height: 80px;
+            width: auto;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .navi {
+            display: flex;
+            align-items: center;
+        }
+        .navi a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        .navi a:hover {
+            color: blue; 
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .logo {
+                margin-bottom: 20px;
+            }
+            .navi {
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="IMG_3758.jpg" alt="Hospital Logo">
+            <span>VESH HOSPITAL</span>
+        </div>
+        <div class="navi">
+            <a href="#HOME">HOME</a>
+            <a href="#ABOUT">ABOUT US</a>
+            <a href="#BRANCHES">BRANCHES</a>
+            <a href="#HELP">NEED HELP?</a>
+            <a href="#CONTACT">CONTACT US</a>
+        </div>
+    </div>
+</body>
+</html>
